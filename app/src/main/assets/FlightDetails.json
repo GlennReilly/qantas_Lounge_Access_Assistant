@@ -1,5 +1,5 @@
 {
-  "flightDetails":[
+  "flightDetailsCollection":[
     {
       "flightNumber": "QF456",
       "departureDate": "2018-08-04T08:15:00+10:00"

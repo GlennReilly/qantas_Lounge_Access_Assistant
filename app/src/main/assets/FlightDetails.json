@@ -1,0 +1,56 @@
+{
+  "flightDetails":[
+    {
+      "flightNumber": "QF456",
+      "departureDate": "2018-08-04T08:15:00+10:00"
+    },    {
+      "flightNumber": "QF478",
+      "departureDate": "2018-08-05T11:37:00+10:00"
+    },    {
+      "flightNumber": "QF488",
+      "departureDate": "2018-08-05T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF499",
+      "departureDate": "2018-08-05T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF456",
+      "departureDate": "2018-08-06T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF478",
+      "departureDate": "2018-08-06T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF488",
+      "departureDate": "2018-08-06T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF493",
+      "departureDate": "2018-08-06T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF456",
+      "departureDate": "2018-08-06T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF478",
+      "departureDate": "2018-08-06T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF488",
+      "departureDate": "2018-08-06T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF493",
+      "departureDate": "2018-08-06T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF456",
+      "departureDate": "2018-08-07T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF478",
+      "departureDate": "2018-08-07T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF488",
+      "departureDate": "2018-08-07T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF499",
+      "departureDate": "2018-08-08T21:00:00+10:00"
+    },    {
+      "flightNumber": "QF456",
+      "departureDate": "2018-08-09T21:00:00+10:00"
+    }
+  ]
+}

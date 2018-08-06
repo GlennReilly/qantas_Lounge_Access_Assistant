@@ -1,0 +1,73 @@
+{
+"project_info": {
+"project_number": "181997740305",
+"firebase_url": "https://qantaslounger.firebaseio.com",
+"project_id": "qantaslounger",
+"storage_bucket": "qantaslounger.appspot.com"
+},
+"client": [
+{
+"client_info": {
+"mobilesdk_app_id": "1:181997740305:android:48de31048f1928b4",
+"android_client_info": {
+"package_name": "au.org.hackthon.qantasloungeaccessassistant"
+}
+},
+"oauth_client": [
+{
+"client_id": "181997740305-jkj9oe9rdh3df7ieog8jeg4t8l97ar3p.apps.googleusercontent.com",
+"client_type": 3
+}
+],
+"api_key": [
+{
+"current_key": "AIzaSyDz3tfJXlxws_Z_gt82E07aY7f19fmpawc"
+}
+],
+"services": {
+"analytics_service": {
+"status": 1
+},
+"appinvite_service": {
+"status": 1,
+"other_platform_oauth_client": []
+},
+"ads_service": {
+"status": 2
+}
+}
+},
+{
+"client_info": {
+"mobilesdk_app_id": "1:181997740305:android:f13220e15b2b7d3a",
+"android_client_info": {
+"package_name": "au.org.hackthon.qantaslounger"
+}
+},
+"oauth_client": [
+{
+"client_id": "181997740305-jkj9oe9rdh3df7ieog8jeg4t8l97ar3p.apps.googleusercontent.com",
+"client_type": 3
+}
+],
+"api_key": [
+{
+"current_key": "AIzaSyDz3tfJXlxws_Z_gt82E07aY7f19fmpawc"
+}
+],
+"services": {
+"analytics_service": {
+"status": 1
+},
+"appinvite_service": {
+"status": 1,
+"other_platform_oauth_client": []
+},
+"ads_service": {
+"status": 2
+}
+}
+}
+],
+"configuration_version": "1"
+}

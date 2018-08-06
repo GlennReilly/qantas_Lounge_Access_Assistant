@@ -10,6 +10,11 @@ import android.widget.Button
 import data.FlightDetailDataProvider
 import android.graphics.Bitmap
 import android.widget.ImageView
+import com.google.firebase.ml.vision.FirebaseVision
+import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode
+import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcodeDetectorOptions
+import com.google.firebase.ml.vision.common.FirebaseVisionImage
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -32,6 +37,29 @@ class MainActivity : AppCompatActivity() {
         scanButton.setOnClickListener {
             dispatchTakePictureIntent()
         }
+
+    }
+
+    private fun doImageStuff(bitmap: Bitmap) {
+        val options = FirebaseVisionBarcodeDetectorOptions.Builder()
+            .setBarcodeFormats(FirebaseVisionBarcode.FORMAT_QR_CODE,
+                FirebaseVisionBarcode.FORMAT_CODE_128).build()
+
+        val image = FirebaseVisionImage.fromBitmap(bitmap)
+        FirebaseVision.getInstance()
+            .getVisionBarcodeDetector(options)
+            //.visionBarcodeDetector
+            .detectInImage(image)
+            .addOnSuccessListener {
+                if (it.isNotEmpty()) {
+                    message.text = "Success: ${it.first().rawValue}"
+                } else {
+                    message.text = "Failed to detect any barcode."
+                }
+            }
+            .addOnFailureListener {
+                message.text = it.message
+            }
     }
 
 
@@ -52,6 +80,7 @@ class MainActivity : AppCompatActivity() {
         if (requestCode == REQUEST_TAKE_PHOTO && resultCode == RESULT_OK) {
             val photo = data?.extras?.get("data") as Bitmap
             imageView?.setImageBitmap(photo)
+            doImageStuff(photo)
         }
 
     }

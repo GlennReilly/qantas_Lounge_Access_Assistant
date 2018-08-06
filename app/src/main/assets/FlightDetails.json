@@ -1,56 +1,412 @@
 {
-  "flightDetailsCollection":[
-    {
-      "flightNumber": "QF456",
-      "departureDate": "2018-08-04T08:15:00+10:00"
-    },    {
-      "flightNumber": "QF478",
-      "departureDate": "2018-08-05T11:37:00+10:00"
-    },    {
-      "flightNumber": "QF488",
-      "departureDate": "2018-08-05T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF499",
-      "departureDate": "2018-08-05T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF456",
-      "departureDate": "2018-08-06T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF478",
-      "departureDate": "2018-08-06T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF488",
-      "departureDate": "2018-08-06T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF493",
-      "departureDate": "2018-08-06T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF456",
-      "departureDate": "2018-08-06T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF478",
-      "departureDate": "2018-08-06T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF488",
-      "departureDate": "2018-08-06T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF493",
-      "departureDate": "2018-08-06T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF456",
-      "departureDate": "2018-08-07T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF478",
-      "departureDate": "2018-08-07T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF488",
-      "departureDate": "2018-08-07T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF499",
-      "departureDate": "2018-08-08T21:00:00+10:00"
-    },    {
-      "flightNumber": "QF456",
-      "departureDate": "2018-08-09T21:00:00+10:00"
-    }
-  ]
+    "flightDetailsCollection": [
+        {
+            "flightNumber": "QF456",
+            "departureDate": "2018-08-04T08:15:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Bob",
+                    "lastName": "JarJar",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Sara",
+                    "lastName": "Wash",
+                    "ffNum": "",
+                    "tier": ""
+                },
+                {
+                    "firstName": "Larry",
+                    "lastName": "Robertson",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF478",
+            "departureDate": "2018-08-05T11:37:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Garry",
+                    "lastName": "Perk",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Kara",
+                    "lastName": "Ow",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Terry",
+                    "lastName": "Robertson",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF488",
+            "departureDate": "2018-08-05T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Rob",
+                    "lastName": "Yerth",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Suzie",
+                    "lastName": "Pang",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Garry",
+                    "lastName": "Lee",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF499",
+            "departureDate": "2018-08-05T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Frankie",
+                    "lastName": "Hoo",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Fergus",
+                    "lastName": "Smith",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Lavender",
+                    "lastName": "Robertson",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF456",
+            "departureDate": "2018-08-06T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Gweneth",
+                    "lastName": "Gakk",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Henrietta",
+                    "lastName": "Ugg",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Louise",
+                    "lastName": "Robertson",
+                    "ffNum": "94583247",
+                    "tier": "Bronze"
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF478",
+            "departureDate": "2018-08-06T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Wendy",
+                    "lastName": "Smith",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Nathan",
+                    "lastName": "Jones",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Rollo",
+                    "lastName": "Tor",
+                    "ffNum": "94583247",
+                    "tier": "Bronze"
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF488",
+            "departureDate": "2018-08-06T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Quentin",
+                    "lastName": "Olgarth",
+                    "ffNum": "94583412",
+                    "tier": "Platinum"
+                },
+                {
+                    "firstName": "Andrew",
+                    "lastName": "Zug",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Horatio",
+                    "lastName": "Robertson",
+                    "ffNum": "94583247",
+                    "tier": "Gold"
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF493",
+            "departureDate": "2018-08-06T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Ignatious",
+                    "lastName": "Kurtz",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Willy",
+                    "lastName": "Worty",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Larry",
+                    "lastName": "Zerg",
+                    "ffNum": "94583247",
+                    "tier": "Bronze"
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF456",
+            "departureDate": "2018-08-06T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Bill",
+                    "lastName": "Werdup",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Sara",
+                    "lastName": "Patterson",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Roberta",
+                    "lastName": "Sedty",
+                    "ffNum": "94583247",
+                    "tier": "Bronze"
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF478",
+            "departureDate": "2018-08-06T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Bob",
+                    "lastName": "Loikuj",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Sara",
+                    "lastName": "Qwerty",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Larry",
+                    "lastName": "Asdf",
+                    "ffNum": "94583247",
+                    "tier": "Bronze"
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF488",
+            "departureDate": "2018-08-06T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Rollo",
+                    "lastName": "Pointy",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Elvira",
+                    "lastName": "Smith",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Brice",
+                    "lastName": "Hortez",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF493",
+            "departureDate": "2018-08-06T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Bob",
+                    "lastName": "Derty",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Sara",
+                    "lastName": "Rogers",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Larry",
+                    "lastName": "Robertson",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF456",
+            "departureDate": "2018-08-07T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Geoff",
+                    "lastName": "Smith",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Sara",
+                    "lastName": "Smith",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Loulou",
+                    "lastName": "Bright",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF478",
+            "departureDate": "2018-08-07T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Gladys",
+                    "lastName": "Smith",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Sara",
+                    "lastName": "Smith",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Bernice",
+                    "lastName": "Robertson",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF488",
+            "departureDate": "2018-08-07T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Frank",
+                    "lastName": "Harris",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Tom",
+                    "lastName": "Smith",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Kevin",
+                    "lastName": "Bacon",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF499",
+            "departureDate": "2018-08-08T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Garry",
+                    "lastName": "French",
+                    "ffNum": "94583412",
+                    "tier": "Bronze"
+                },
+                {
+                    "firstName": "Dwight",
+                    "lastName": "Headley",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Wilbur",
+                    "lastName": "Smith",
+                    "ffNum": "",
+                    "tier": ""
+                }
+            ]
+        },
+        {
+            "flightNumber": "QF456",
+            "departureDate": "2018-08-09T21:00:00+10:00",
+            "passengerManifest": [
+                {
+                    "firstName": "Terry",
+                    "lastName": "Long",
+                    "ffNum": "94523412",
+                    "tier": "Gold"
+                },
+                {
+                    "firstName": "Sara",
+                    "lastName": "Jones",
+                    "ffNum": "94483412",
+                    "tier": "Silver"
+                },
+                {
+                    "firstName": "Harry",
+                    "lastName": "Willliams",
+                    "ffNum": "94583247",
+                    "tier": "Bronze"
+                }
+            ]
+        }
+    ]
 }
